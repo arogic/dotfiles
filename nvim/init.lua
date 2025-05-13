@@ -63,4 +63,5 @@ require('lazy').setup({
   -- require 'plugins.which-key',
   require 'plugins.vim-sleuth',
   require 'plugins.markview',
+  require 'plugins.project',
 })
