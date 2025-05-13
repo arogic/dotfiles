@@ -24,13 +24,13 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 
 -- The number of spaces inserted for each indentation
-vim.o.shiftwidth = 2
+vim.o.shiftwidth = 4
 
 -- Insert n spaces for a tab
-vim.o.tabstop = 2
+vim.o.tabstop = 4
 
 -- Number of spaces that a tab counts
-vim.o.softtabstop = 2
+vim.o.softtabstop = 4
 
 -- Convert tabs to spaces
 vim.o.expandtab = true
@@ -68,7 +68,8 @@ vim.o.fileencoding = 'utf-8'
 vim.o.modeline = false
 
 -- below does not work
--- vim.o.listchars = 'spaces:·'
+-- vim.o.list = true
+-- vim.o.listchars = { spaces = '·', tab ='->' }
 
 -- folding
 -- vim.o.foldmethod='indent'
